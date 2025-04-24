@@ -24,7 +24,7 @@ img {
 .wrapper {
     background: #E6EDE6; /* полупрозрачный фон, чтобы текст читался */
     width: 100%;
-    padding-left: 1px;
+    padding-left: 123px;
     padding-right: 123px;
     padding-top: 123px;
 }
@@ -118,7 +118,7 @@ img {
 .content {
     display: flex;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
 }
 
@@ -129,7 +129,7 @@ img {
     background-repeat: no-repeat;
     background-size: contain;
     height: 650px;
-    width: 830px; /* Высота изображения */
+    width: 750px; /* Высота изображения */
     border-radius: 25px;
 }
 
