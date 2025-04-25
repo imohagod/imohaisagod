@@ -22,11 +22,11 @@ img {
 }
 
 .wrapper {
-    background: #E6EDE6; /* полупрозрачный фон, чтобы текст читался */
-    width: 100%;
-    padding-left: 1px;
-    padding-right: 123px;
-    padding-top: 123px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 30px; /* уменьшил отступы */
+}
+
 }
 
 .hero--info h2 {
